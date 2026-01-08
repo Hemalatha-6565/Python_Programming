@@ -1,0 +1,21 @@
+import math        #Used for mathematical operations
+import os          # ,,  ,,  interact with the operating system
+import random      # ,,  ,, generate random values
+import re          # ,,  ,, regular expressions (pattern matching),Searching patterns in text
+import sys         # ,,  ,,  system-specific parameters,Fast input/output,Command-line arguments
+ 
+
+
+
+if __name__ == '__main__':
+    n = int(input().strip())  # strip() is used for string in python,its remove whitespace(empty space) , int(input()) is  type casting.
+
+if n % 2 != 0:
+    print("Weird")
+else:
+    if 2 <= n <= 5:
+        print("Not Weird")
+    elif 6 <= n <= 20:
+        print("Weird")
+    else:
+        print("Not Weird")
