@@ -1,0 +1,12 @@
+if __name__ == '__main__':
+  n = int(input())
+scores = list(map(int, input().split()))    # split() used for string to convert the space split in list."map()"It applies a given function to every element in an iterable.
+
+# Remove duplicates
+unique_scores = list(set(scores))
+
+# Sort in descending order
+unique_scores.sort(reverse=True)
+
+# Print runner-up score
+print(unique_scores[1])
