@@ -1,0 +1,7 @@
+def swap_case(s): #function definition
+    return s.swapcase()  #swapcase() is a built-in Python string method,uppercase to lowercase,lowercase to uppercase
+
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
