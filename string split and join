@@ -1,0 +1,8 @@
+def split_and_join(line):
+  h = line.split(" ")   #split(" ")  Split the string on a " " (space) delimiter  
+  return "-".join(h)   #Joining a string  in - hyphen
+  
+if __name__ == '__main__':
+    line = input()
+    result = split_and_join(line)
+    print(result)
